@@ -20,7 +20,7 @@ The Translator App is a straightforward translation tool that supports Korean, S
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE (/LICENSE) file for details.
 
 Contact
 For any questions or feedback, please reach out to skyknightb@gmail.com.
