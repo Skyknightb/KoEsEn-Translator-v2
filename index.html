@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KoEsEn Translator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>KoEsEn Translator</h1>
+    <form id="translate-form">
+      <div class="input-section">
+        <label for="user-input">Enter text to translate:</label>
+        <input id="user-input" type="text" placeholder="Type here..." />
+      </div>
+      <div class="button-section">
+        <button class="translate-btn" id="translate-btn">Translate</button>
+        <button class="voice-btn" id="voice-btn">🎙️ Speak</button>
+        <button class="play-btn" id="play-btn">🔊 Play Korean</button>
+      </div>
+      <div class="output-section">
+        <h2>Translations:</h2>
+        <div class="translation-group">
+          <label>English:</label>
+          <input id="translation-en" type="text" readonly />
+        </div>
+        <div class="translation-group">
+          <label>Korean:</label>
+          <input id="translation-ko" type="text" readonly />
+        </div>
+        <div class="translation-group">
+          <label>Spanish:</label>
+          <input id="translation-es" type="text" readonly />
+        </div>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p>
+      <small>
+        &copy; 2024 Skyknight Beoulve<br />
+        <sup>*</sup>This service may contain translations powered by Google.
+        Google disclaims all warranties related to the translations, express
+        or implied, including any warranties of accuracy, reliability, and any
+        implied warranties of merchantability, fitness for a particular
+        purpose and non-infringement.
+      </small>
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
