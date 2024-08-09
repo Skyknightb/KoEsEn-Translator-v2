@@ -4,15 +4,15 @@
 The Translator App is a straightforward translation tool that supports Korean, Spanish, and English. Users can input text or speak into their browser or phone, and receive translations in all three supported languages. Additionally, Korean translations are voiced using the Web Speech API.
 
 ### Features
-**Multi-Language Support:** Translate text and speech between Korean, Spanish, and English.
-**Voice Input:** Use your microphone to input text in any of the supported languages.
-**Text-to-Speech:** Korean translations are read aloud using the Web Speech API.
-**Browser and Mobile Compatibility:** Accessible from both desktop and mobile browsers. Note: The app is not graphically optimized for mobile devices, so some gesturing may be required.
+**Multi-Language Support:** Translate text and speech between Korean, Spanish, and English.<br/>
+* **Voice Input:** Use your microphone to input text in any of the supported languages.<br/>
+* **Text-to-Speech:** Korean translations are read aloud using the Web Speech API.<br/>
+* **Browser and Mobile Compatibility:** Accessible from both desktop and mobile browsers. Note: The app is not graphically optimized for mobile devices, so some gesturing may be required.<br/>
 
 ### Usage
-**Host the Web App:** Deploy the code to a web server of your choice.
-**Access the App:** Open your browser and navigate to the hosted URL.
-**Input Text or Use Speech:** Enter text or use your microphone to input in Korean, Spanish, or English.
+* **Host the Web App:** Deploy the code to a web server of your choice.
+* **Access the App:** Open your browser and navigate to the hosted URL.
+* **Input Text or Use Speech:** Enter text or use your microphone to input in Korean, Spanish, or English.
 **Get Translations:** Receive translations in the three supported languages.
 **Listen to Korean Translation:* The Korean translation will be read aloud using text-to-speech.
 
