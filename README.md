@@ -14,7 +14,7 @@ The Translator App is a straightforward translation tool that supports Korean, S
 **Access the App:** Open your browser and navigate to the hosted URL.<br/>
 **Input Text or Use Speech:** Enter text or use your microphone to input in Korean, Spanish, or English.<br/>
 **Get Translations:** Receive translations in the three supported languages.<br/>
-**Listen to Korean Translation:* The Korean translation will be read aloud using text-to-speech.<br/>
+**Listen to Korean Translation:** The Korean translation will be read aloud using text-to-speech.<br/>
 
 ### Contributing
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
