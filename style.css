@@ -1,0 +1,102 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #333; /* dark grey background */
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #edfcff; /* canvas color */
+  text-align: center; /* center container contents */
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.input-section label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-section input[type="text"] {
+  width: 80%; /* adjust input width */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.button-section {
+  margin-bottom: 20px;
+}
+
+.translate-btn, .voice-btn, .play-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.translate-btn:hover, .voice-btn:hover, .play-btn:hover {
+  background-color: #3e8e41;
+}
+
+.output-section {
+  margin-top: 20px;
+}
+
+.translation-group {
+  margin-bottom: 10px;
+}
+
+.translation-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.translation-group input[type="text"] {
+  width: 80%; /* adjust output width */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+footer small {
+  font-size: 12px;
+}
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .input-section input[type="text"] {
+    width: 100%;
+  }
+  .translation-group input[type="text"] {
+    width: 100%;
+  }
+  .button-section {
+    text-align: center;
+  }
+  .translate-btn, .voice-btn, .play-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
